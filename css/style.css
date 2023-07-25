@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "ExtraLight200";
+    src: url("/font/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: "ExtraBlack";
+    src: url("/font/Poppins-Black.ttf");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:"ExtraLight200";
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #DEB887;
+    background-color: #FFF8DC;
+    border: 1px solid #FFF8DC;
+    text-decoration: none;
+ }
+
+ #navegador li a:hover{
+    background-color: #DEB887;
+    color: #ffffff;
+ }
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ h1 {
+    color: #DEB887;
+    font-family: "ExtraBlack";
+ }
+
+ .nosotros {
+    width: 100%;
+    background-color:#DEB887 ;
+    color: #ffffff;
+    font-family: "ExtraLight200";
+ }
